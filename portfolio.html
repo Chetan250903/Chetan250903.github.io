@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:300,400,700'>
+  <link rel="preload" as="image" href="https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg">
+  <link rel="stylesheet" href="portfolio.css" />
+  <style>
+    header {
+      padding-top: 30px;
+    }
+    .header__top {
+      padding-top: 1rem;
+    }
+    .header__content {
+      margin-top: 2rem;
+    }
+    .header__content p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+    .header__content .btn {
+      margin-top: 1.5rem;
+      padding: 0.5rem 1.2rem;
+      font-size: 0.9rem;
+    }
+    .header__top-nav ul,
+    .header__top--responsive ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .header__top-nav ul li,
+    .header__top--responsive ul li {
+      display: inline-block;
+      margin-left: 15px;
+    }
+    .menu-responsive {
+      display: none;
+      background: #fff;
+      padding: 1rem;
+      position: absolute;
+      width: 100%;
+      top: 60px;
+      left: 0;
+      z-index: 999;
+      border-bottom: 1px solid #ccc;
+    }
+    .menu-responsive ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .menu-responsive ul li {
+      margin-bottom: 10px;
+    }
+    @media (min-width: 768px) {
+      .header__content p {
+        font-size: 1.4rem;
+      }
+      .header__content .btn {
+        font-size: 1rem;
+      }
+    }
+    
+  </style>
+</head>
+<body>
+  <!-- Mobile Menu -->
+  <div class="menu-responsive">
+    <nav>
+      <ul>
+        <li><a class="scroll" href="#about">About</a></li>
+        <li><a class="scroll" href="#skills">Skills</a></li>
+        <li><a class="scroll" href="#projects">Projects</a></li>
+        <li><a class="scroll" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="row header__top align-items-center">
+        <div class="col-md-6 text-left">
+          <h1 class="mb-2 text-left text-uppercase font-weight-bold" style="color: white;"><span class="bold">Portfolio</span></h1>
+          <div style="width: 60px; height: 3px; background-color: #28a745;"></div>
+        </div>
+        
+        <div class="col-md-6 text-md-right d-none d-md-block header__top-nav">
+          <ul>
+            <li><a class="scroll" href="#about" style="font-weight: bold;">About</a></li>
+            <li><a class="scroll" href="#skills" style="font-weight: bold;">Skills</a></li>
+            <li><a class="scroll" href="#projects" style="font-weight: bold;">Projects</a></li>
+            <li><a class="scroll" href="#contact" style="font-weight: bold;">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-12 d-md-none text-right header__top--responsive">
+          <ul>
+            <li><a class="menu-bars" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header__content text-center">
+        <p class="bold">Hello!</p>
+        <p>I'm Chetan. I'm passionate about computers, enjoy exploring new technologies, and am very excited to use those technologies to solve problems. My objective is to work for an organization's vision by contributing through thoughts and action which provides me the opportunity to improve my skills and knowledge.</p>
+        <a class="btn scroll" href="#projects">See My Work</a>
+      </div>
+
+      <div class="header__arrow text-center mt-3">
+        <a class="scroll" href="#about"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+<section id="about">
+  <div class="container text-center">
+    <h2>Who Am I</h2>
+    <hr>
+    <img src="Profile1.jpg" alt="Chetan Takate" class="img-fluid mb-3" style="max-width: 200px;">
+    <p class="lead">Chetan Takate</p>
+    <p style="font-size: 1rem; line-height: 1.6;">
+      An Candidate Manager at TEKsystems, focused on delivering efficient, scalable, and client-centric solutions in the field of It. My role involves understanding business needs, analyzing technical requirements, and contributing to effcient talent solutions. I am committed to continuous learning and professional growth while supporting the success of my team and organization.
+    </p>
+  </div>
+</section>
+
+
+  <!-- Skills Section -->
+<section id="skills">
+  <div class="container">
+    <h2 class="text-center">My Skills</h2>
+    <hr>
+    <div class="row">
+      <!-- Row 1 -->
+      <div class="col-md-6">
+        <div class="skill">
+          <div class="skills__percent">98%</div>
+          <div class="progress-container">
+            <strong>Data Analysis</strong>
+            <div class="progress">
+              <div class="progress-bar" style="width: 98%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="skill">
+          <div class="skills__percent">95%</div>
+          <div class="progress-container">
+            <strong>Python</strong>
+            <div class="progress">
+              <div class="progress-bar" style="width: 95%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="col-md-6">
+        <div class="skill">
+          <div class="skills__percent">90%</div>
+          <div class="progress-container">
+            <strong>MySQL</strong>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="skill">
+          <div class="skills__percent">80%</div>
+          <div class="progress-container">
+            <strong>Power BI</strong>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="col-md-6">
+        <div class="skill">
+          <div class="skills__percent">70%</div>
+          <div class="progress-container">
+            <strong>JAVA</strong>
+            <div class="progress">
+              <div class="progress-bar" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="skill">
+          <div class="skills__percent">60%</div>
+          <div class="progress-container">
+            <strong>Excel</strong>
+            <div class="progress">
+              <div class="progress-bar" style="width: 60%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Row 5 -->
+      <div class="col-md-6">
+        <div class="skill">
+          <div class="skills__percent">85%</div>
+          <div class="progress-container">
+            <strong>Power BI</strong>
+            <div class="progress">
+              <div class="progress-bar" style="width: 85%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="skill">
+          <div class="skills__percent">40%</div>
+          <div class="progress-container">
+            <strong>MS Office</strong>
+            <div class="progress">
+              <div class="progress-bar" style="width: 40%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+    <h2 class="text-center">Projects</h2>
+    <hr>
+      <div class="projects__projects">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <figure>
+              <img src="Sales_analysis.png" alt="E-Commerce Sales Analysis with Python" class="img-fluid">
+              <figcaption>
+                <h3>Sales Analysis</h3>
+                <a href="https://colab.research.google.com/drive/15u7ziRQ0BR8CvewTuVvurqT7Mz0AfGlw?usp=sharing" class="project-link">
+                  Visit Project <i class="fa fa-external-link"></i>
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <figure>
+              <img src="openCV.png" alt="Traffic Survillience System" class="img-fluid">
+              <figcaption>
+                <h3>Traffic Survillience System</h3>
+                <a href="https://7svgzpe9mrvjmuan9qqqse.streamlit.app/#traffic-monitoring-system" class="project-link">
+                  Visit Project <i class="fa fa-external-link"></i>
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <figure>
+              <img src="calculator.jpg" alt="JavaScript Calculator" class="img-fluid">
+              <figcaption>
+                <h3>Calculator</h3>
+                <a href="https://github.com/Chetan250903/codsoft_3" class="project-link">
+                  Visit Project <i class="fa fa-external-link"></i>
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+      <p class="lead text-white">Interested in working together?</p>
+      <p class="text-white">Get in touch to discuss opportunities</p>
+      <div class="contact-email mt-3 mb-4">
+        <a href="mailto:chetantakate2509@gmail.com" class="text-white">
+          <i class="fa fa-envelope mr-2"></i>chetantakate2509@gmail.com
+        </a>
+      </div>
+      <a class="btn" href="https://drive.google.com/file/d/1xfsUheICCeNdatqO9KQdTc-PkhHjGXUG/view?usp=drive_link" target="_blank">My CV</a>
+
+      <div class="contact__social mt-3">
+        <a href="https://www.linkedin.com/in/chetan-takate-007845244/" target="_blank" data-tooltip="LinkedIn">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/Chetan250903" target="_blank" data-tooltip="GitHub">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section id="footer" class="text-center mt-4">
+    <p>Created by Saloni Pujari &copy; <span id="current-year"></span></p>
+  </section>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" title="Back to Top">
+    <i class="fa fa-arrow-up"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://unpkg.com/scrollreveal/dist/scrollreveal.min.js'></script>
+  <script src="portfolio.js"></script>
+</body>
+</html>
